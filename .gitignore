@@ -1,0 +1,67 @@
+# Fichiers générés par le système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs
+*.log
+/logs/
+/*.log
+/test-results/
+
+# Fichiers de build et output
+/target/
+/build/
+/out/
+/bin/
+
+# Fichiers temporaires
+*.class
+*.war
+*.ear
+*.jar
+*.iml
+
+# Configurations locales IntelliJ IDEA
+.idea/
+/*.iws
+*.ipr
+
+# Eclipse files
+/.project
+/.classpath
+/.settings/
+*.launch
+
+# Systèmes CI/CD (Jenkins, Travis, etc.)
+/.travis.yml
+/.gitlab-ci.yml
+
+# Répertoires spécifiques aux tests
+/test-output/
+/target/test-classes/
+/target/surefire-reports/
+/target/spring-boot-loader/
+
+
+# Fichiers spécifiques à HSQLDB
+*.db
+*.log
+*.lck
+
+# Fichiers générés par IntelliJ
+.idea/
+*.iml
+*.ipr
+
+# Fichiers de dépendances externes (si utilisés dans le projet)
+/lib/
+/vendor/
+
+# Autres fichiers potentiellement indésirables
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers sensibles
+.env
